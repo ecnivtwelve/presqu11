@@ -3,6 +3,8 @@
 Windows 11 native-like apps using Javascript and HTML.
 **Works with [Electron](https://github.com/electron/electron) and [NW.js](https://github.com/nwjs/nw.js) !**
 
+[Download latest](https://github.com/ecnivtwelve/presqu11/releases)
+
 ![Preview of the window](https://i.imgur.com/ywPsFyw.png)
 
 ## Installation
