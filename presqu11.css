@@ -1,6 +1,7 @@
 * {
     margin: 0;
     font-family: 'Segoe UI Variable Static Text', 'Segoe UI Variable', "Segoe UI";
+    text-rendering: optimizeLegibility;
 }
 
 p {
@@ -385,4 +386,26 @@ w11-button:active {
     c2:hover {
         background-color: #ffffff11;
     }
+    .w11-input {
+        background-color: #000 !important;
+        border-bottom: 2px solid #424242 !important;
+        color: #fff;
+    }
+}
+
+.w11-input {
+    background-color: #ffffff;
+    border-style: none;
+    border-bottom: 2px solid #888;
+    border-radius: 5px;
+    padding: 7px;
+    padding-left: 10px;
+    font-size: 14px;
+    width: 300px;
+    transition: 0.15s;
+}
+
+.w11-input:focus {
+    border-bottom: 2px solid #005CCA !important;
+    outline: none;
 }
