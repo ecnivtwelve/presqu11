@@ -8,7 +8,7 @@ Windows 11 native-like apps using Javascript and HTML.
 ![Preview of the window](https://i.imgur.com/ywPsFyw.png)
 
 ## Installation
-Get the [latest release](https://github.com/ecnivtwelve/presqu11/releases) and import it into your project's folder.
+Grab this repository and import it into your project's folder.
 
 #### In your HTML file
   import Presqu'11 CSS files in your <head> tag
