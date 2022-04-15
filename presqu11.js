@@ -5,6 +5,7 @@ const remote = electron.remote
 const ipcRenderer = require('electron').ipcRenderer;
 
 let presqu11 = new Object;
+presqu11.components = new Object;
 
 // topbar & controls
 let topbar = document.getElementsByTagName("w11-topbar")[0];
@@ -79,4 +80,16 @@ function openTab(elemnt) {
     currentTab.classList.remove("active");
     currentTab = document.getElementById(elemnt);
     document.getElementById(elemnt).classList.add("active");
+}
+
+presqu11.components.modalShow = function (modal) {
+    document.getElementById(modal).style.display = "flex";
+}
+
+presqu11.components.modalHide = function (modal) {
+    document.getElementById(modal).classList.add("modal-about");
+    setTimeout(function() {
+        document.getElementById(modal).style.display = "none";
+        document.getElementById(modal).classList.remove("modal-about");
+    }, 300)
 }
