@@ -1,5 +1,6 @@
 ![enter image description here](https://cdn.discordapp.com/attachments/856933249636237332/899289812731846686/unknown.png)
-For all information, [read the wiki](https://presqu11.notion.site/About-Presqu-11-56eabbc8a2ff433a8c90a947c0ab39ef).
+
+*For all information, [read the wiki](https://presqu11.notion.site/About-Presqu-11-56eabbc8a2ff433a8c90a947c0ab39ef).*
 
 Windows 11 native-like apps using Javascript and HTML.
 **Works with [Electron](https://github.com/electron/electron) and [NW.js](https://github.com/nwjs/nw.js) !**
@@ -82,4 +83,4 @@ Grab this repository and import it into your project's folder.
    ##
   
   ### Other components
-  For the other components, [read the wiki](https://presqu11.notion.site/About-Presqu-11-56eabbc8a2ff433a8c90a947c0ab39ef).
+  For the other components, [read the wiki](https://presqu11.notion.site/Components-8540950d9e5c492295c2a005b3db16ac).
