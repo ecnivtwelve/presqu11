@@ -28,6 +28,71 @@ body {
     overflow: hidden;
 }
 
+w11-modal {
+    background-color: #00000055;
+    backdrop-filter: blur(10px);
+    width: 100vw;
+    height: calc(100vh - 48px);
+    position: absolute;
+    top: 48px;
+    left: 0;
+    z-index: 99999999999999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: modalBG 0.3s forwards;
+    display: none;
+}
+
+@keyframes modalBG {
+    from {
+        background-color: #00000001;
+        backdrop-filter: blur(0px);
+    }
+}
+
+w11-modal-content {
+    width: 75%;
+    height: 70%;
+    max-width: 1100px;
+    max-height: 750px;
+    border-radius: 5px;
+    background-color: var(--background);
+    box-shadow: 0px 2px 4px #00000055;
+    overflow: hidden;
+    padding: 25px;
+    animation: modal 0.3s forwards cubic-bezier(0,0,0,1);
+}
+
+@keyframes modal {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+}
+
+.modal-about {
+    animation: modal-about forwards 0.3s cubic-bezier(0,0,0,1);
+}
+
+.modal-about w11-modal-content {
+    animation: modal-about-inner forwards 0.2s cubic-bezier(0,0,0,1);
+}
+
+@keyframes modal-about {
+    to {
+        background-color: #00000001;
+        backdrop-filter: blur(0px);
+    }
+}
+
+@keyframes modal-about-inner {
+    to {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+}
+
 w11-topbar {
     background-color: var(--background);
     height: 48px;
@@ -37,6 +102,7 @@ w11-topbar {
     left: 0;
     display: flex;
     -webkit-app-region: drag;
+    z-index: 9999999999999999999999999999999;
 }
 
 w11-topbar img {
@@ -243,6 +309,42 @@ w11-tab-title {
     margin-top: -5px;
     margin-bottom: 29px;
     user-select: none;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    user-select: none;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    user-select: none;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    user-select: none;
+    margin-bottom: 10px;
 }
 
 w11-tab-content {
