@@ -81,4 +81,4 @@ Grab this repository and import it into your project's folder.
    ##
   
   ### Other components
-  For the other components, [read the wiki](https://github.com/ecnivtwelve/presqu11/wiki/Components).
+  For the other components, [read the wiki](https://github.com/ecnivtwelve/presqu11/wiki/).
